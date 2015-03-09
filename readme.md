@@ -19,7 +19,7 @@ by the program without distractions. I've done this using Mac OS X's Preview.app
 ![The cropped image](images/clean.jpg "The cropped image")
 
 Then, using [OpenCV](http://opencv.org/) I separated individual glyphs into a matrix, storing each glyph on index
-according to its possition in the glyphs matrix on the image.
+according to its position in the glyphs matrix on the image.
 
 After that, I initialized [Artificial Neural Network](http://en.wikipedia.org/wiki/Artificial_neural_network) with following topology: 9 inputs, 5 neurons in one hidden layer and one output. I resized each glyph into 3x3 pixel matrix, each pixel corresponding to one input and selected 3 glyphs for training the **ANN**.
 
