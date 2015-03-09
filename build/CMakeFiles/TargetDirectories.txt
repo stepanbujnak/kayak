@@ -1,0 +1,1 @@
+/Users/stepan/Dropbox/Work/kayak/build/CMakeFiles/kayak.dir
