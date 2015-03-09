@@ -1,19 +1,19 @@
 The Kayak puzzle
 ================
 
-So I saw this funny crossword on the internet that was composed only of letters **K**, **A** and **Y**.
-The point of the crossword was to find the word **KAYAK**. Seemingly impossible and the author disclosed
+So I saw this funny word search on the internet that was composed only of letters **K**, **A** and **Y**.
+The point of the word search was to find the word **KAYAK**. Seemingly impossible and the author disclosed
 that the word **KAYAK** appears in the glyphs matrix only once.
 
 After I spent a couple of minutes solving the puzzle I figured it would be interesting to write
 a program to solve the puzzle for me, since I've never done any [OCR](http://en.wikipedia.org/wiki/Optical_character_recognition) before, and wanted to try it.
 
-![An image of the KAYAK crossword](images/original.jpg "An image of the KAYAK crossword")
+![An image of the KAYAK word search](images/original.jpg "An image of the KAYAK word search")
 
 How did I proceed
 =================
 
-The very first step was to remove the title and help text from the crossword so it could be processed
+The very first step was to remove the title and help text from the word search so it could be processed
 by the program without distractions. I've done this using Mac OS X's Preview.app. Here's the image after cropping:
 
 ![The cropped image](images/clean.jpg "The cropped image")
